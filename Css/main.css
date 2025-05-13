@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #2E8B57; /* Changed from #4CAF50 to a darker green */
     color: white;
     padding: 20px 0;
 }
@@ -18,9 +18,17 @@ main {
 }
 
 button {
-    padding: 10px 20px;
+    padding: 12px 24px; /* Slightly increased padding */
     font-size: 16px;
     cursor: pointer;
+    background-color: #4CAF50; /* Added background color */
+    color: white;              /* Added text color */
+    border: none;              /* Removed default border */
+    border-radius: 5px;        /* Added rounded corners */
+}
+
+button:hover {
+    background-color: #45a049; /* Added hover effect */
 }
 
 footer {
